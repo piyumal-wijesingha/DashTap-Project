@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #032f30;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);   
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+
+  .nav-links a {
+    text-align: right;
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-size: 30px;
+    color: #f1f1f1; /* Adjust color as needed */
+    
+  }
+  
+  .home-btn button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+  }
+  

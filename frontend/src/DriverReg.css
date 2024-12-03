@@ -1,0 +1,108 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0A7075;
+    box-shadow: 0 4px 8px #347CCB(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    width: 100%;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .section {
+    border: 1px solid #E6E4DC;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid#E6E4DC;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #E6E4DC;
+  }
+  
+  .vehicle-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+
+  .vehicle-options label {
+    display: block;
+    flex: 1 1 45%;
+    margin-bottom: 10px;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .license-photo {
+    border: 1px solid #E6E4DC;
+    border-radius: 5px;
+    gap: 15px;
+    padding: 10px;   
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #347CCB;
+    color: #E6E4DC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .reg-btn {
+    background-color: #2bd81b;
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    margin-top: 10px;
+    color: #E6E4DC;
+    border: none;
+    cursor: pointer;
+  }
+
+  .experience-options label {
+    margin-right: 15px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+   
